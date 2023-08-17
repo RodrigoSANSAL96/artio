@@ -1,5 +1,6 @@
 import React from "react";
 import './Inicio.css';
+import ClimaAPI from "./ClimaAPI";
 export default class Inicio extends React.Component {
     
     
@@ -42,7 +43,7 @@ export default class Inicio extends React.Component {
                         </button>
                     </div>
                 </div>
-                <aside>HOLA</aside>
+                <aside><ClimaAPI /></aside>
             </div>
         )
     }
