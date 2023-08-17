@@ -1,0 +1,24 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: lightgreen;
+    align-items: center;
+}
+.logo{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.secciones{
+    text-align: center;
+}
+.seccion{
+    text-decoration: none;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    font-weight: bold;
+}
+.seccion:hover{
+    color: white;
+    font-size: 30px;
+}
