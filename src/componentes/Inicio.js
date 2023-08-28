@@ -17,19 +17,19 @@ export default class Inicio extends React.Component {
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
                         </div>
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
+                            <div class="imagenCarousel carousel-item active">
                              <img src="../recursos/inicio1.jpg" class="d-block w-100 imagenesInicio" alt="..."/>
                             </div>
-                            <div class="carousel-item">
+                            <div class="imagenCarousel carousel-item">
                              <img src="../recursos/inicio2.jpg" class="d-block w-100 imagenesInicio" alt="..."/>
                             </div>
-                            <div class="carousel-item">
+                            <div class="imagenCarousel carousel-item">
                               <img src="../recursos/inicio3.jpg" class="d-block w-100 imagenesInicio" alt="..."/>
                             </div>
-                            <div class="carousel-item">
+                            <div class="imagenCarousel carousel-item">
                               <img src="../recursos/inicio4.jpg" class="d-block w-100 imagenesInicio" alt="..."/>
                             </div>
-                            <div class="carousel-item">
+                            <div class="imagenCarousel carousel-item">
                               <img src="../recursos/inicio5.png" class="d-block w-100 imagenesInicio" alt="..."/>
                             </div>
                         </div>

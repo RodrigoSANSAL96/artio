@@ -6,3 +6,18 @@
 .dato{
     text-align: center;
 }
+
+/* MEDIA QUERIS */
+@media (max-width: 1200px){
+    .contenedorClima{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .dato{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contenedorCiudad{
+        width: 500px;
+    }
+}

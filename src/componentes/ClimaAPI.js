@@ -33,9 +33,9 @@ export default class ClimaAPI extends React.Component{
     render(){
         return (
             <>
-            <div>
+            <div className="contenedorClima">
                 {this.state.climasCor.map((clima, index) => (
-                    <div>
+                    <div className="contenedorCiudad">
                         <div className="ciudad">
                             <h2 key={index}>{clima.name}</h2>
                         </div>
@@ -49,16 +49,16 @@ export default class ClimaAPI extends React.Component{
                         </div>
                         <div className="dato">
                             <h5>Humedad</h5>
-                        <h5 key={index}>{clima.main.humidity}</h5>
+                            <h5 key={index}>{clima.main.humidity}</h5>
                         </div>
                         <div className="dato">
-                        <h5>Viento</h5>
-                        <h5 key={index}>{clima.wind.speed}m/s</h5>
+                            <h5>Viento</h5>
+                            <h5 key={index}>{clima.wind.speed}m/s</h5>
                         </div>
                     </div>
                 ))}
                 {this.state.climasBsAS.map((clima, index) => (
-                    <div>
+                    <div className="contenedorCiudad">
                         <div className="ciudad">
                             <h2 key={index}>{clima.name}</h2>
                         </div>
@@ -68,15 +68,15 @@ export default class ClimaAPI extends React.Component{
                         </div>
                         <div className="dato">
                             <h5>Temperatura mínima</h5>
-                        <h5 key={index}>{clima.main.temp_min}°C</h5>
+                            <h5 key={index}>{clima.main.temp_min}°C</h5>
                         </div>
                         <div className="dato">
                             <h5>Humedad</h5>
-                        <h5 key={index}>{clima.main.humidity}</h5>
+                            <h5 key={index}>{clima.main.humidity}</h5>
                         </div>
                         <div className="dato">
-                        <h5>Viento</h5>
-                        <h5 key={index}>{clima.wind.speed}m/s</h5>
+                            <h5>Viento</h5>
+                            <h5 key={index}>{clima.wind.speed}m/s</h5>
                         </div>
                     </div>
                 ))}

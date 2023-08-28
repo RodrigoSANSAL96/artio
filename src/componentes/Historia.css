@@ -28,3 +28,19 @@
 h4, h2, h1{
     font-weight: bold;
 }
+/* MEDIA QUERIS */
+@media (max-width: 576px) {
+    .subcontenedor{
+        width: 300px;
+    }
+}
+@media (max-width: 768px) {
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .subcontenedor{
+        max-width: 500px;
+    }
+}

@@ -22,3 +22,16 @@
     color: white;
     font-size: 30px;
 }
+/* MEDIA QUERIS */
+@media (max-width: 576px) {
+    .nav{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 1200px) {
+    .nav{
+        max-width: 1200px;
+    }
+}
+

@@ -28,3 +28,26 @@ h3, h1{
     width: 600px;
     margin: auto;
 }
+/* MEDIA QUERIS */
+@media (max-width: 576px) {
+    .contenedorContacto{
+        width: 400px;
+        margin: 0px auto 0px auto;
+    }
+    .formulario{
+        margin: 20px auto 20px auto;
+        width: 400px;
+    }
+    .mensaje{
+        width: 300px;
+    }
+}
+@media (max-width: 768px) {
+    .formulario{
+        max-width: 600px;
+        margin: 0px auto 0px auto;
+    }
+    .mensaje{
+        max-width: 400px;
+    }
+}

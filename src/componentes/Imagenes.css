@@ -17,3 +17,23 @@
     border-style: solid;
     border-width: 0.1rem;
 }
+/* MEDIA QUERIS */
+@media (max-width: 576px) {
+    .contenedorImagenes{
+        width: 500px;
+    }
+    .imagenMoto{
+        width: 400px;
+    }
+}
+@media (max-width: 768px) {
+    .contenedorImagenes{
+        margin: 10px auto 10px auto;
+        max-width: 600px;
+    }
+}
+@media (max-width: 1200px){
+    .imagenMoto{
+        max-width: 500px;
+    }
+}
